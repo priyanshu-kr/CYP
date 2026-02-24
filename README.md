@@ -1,4 +1,4 @@
-# 📝 README: Crop Yield Prediction using Ensemble Models
+# Crop Yield Prediction using Ensemble Models
 
 This repository contains a Jupyter Notebook (`Crop_Yield_Prediction.ipynb`) demonstrating a comprehensive machine learning pipeline for predicting crop yield. The project covers data ingestion, preprocessing, feature engineering, model training with various ensemble methods, hyperparameter tuning, and performance evaluation, culminating in an interactive predictive interface.
 
