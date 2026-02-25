@@ -96,7 +96,7 @@ The **Tuned CatBoost Regressor** emerged as the top-performing model, achieving 
 
 ## 🖥️ Interactive Predictive Interface
 
-An interactive interface, built using `ipywidgets` within the notebook, allows users to input various parameters and receive real-time crop yield predictions from the tuned CatBoost model. This interface is also integrated with a web-based UI (Streamlit). 
+An interactive interface, built using `ipywidgets` within the notebook, allows users to input various parameters and receive real-time crop yield predictions from the tuned CatBoost model. This interface is also integrated with a web-based UI (Streamlit). Visit my app here: [Streamlit App](`https://cropyieldpredictioncyp.streamlit.app/`)
 
 **Inputs include:**
 *   Temperature (°C)
@@ -138,6 +138,6 @@ pip install pandas scikit-learn matplotlib seaborn xgboost catboost scipy ipywid
 
 ## ⏭️ Scope of Future Work
 
-*   Deploy the tuned CatBoost model as a web service (e.g., using Flask or FastAPI).
+*   Deploy the tuned CatBoost model as a web service (e.g., using Flask or FastAPI). (optional)
 *   Integrate real-time data from satellite imagery and IoT sensors for dynamic predictions.
 *   Further validate the model with diverse, real-world agricultural datasets.
