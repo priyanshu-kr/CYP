@@ -7,7 +7,7 @@ import pickle
 # ------------------------------
 @st.cache_data
 def load_model():
-    with open("tuned_catboost_model.pkl", "rb") as f:
+    with open("App/tuned_catboost_model.pkl", "rb") as f:
         model = pickle.load(f)
     return model
 
