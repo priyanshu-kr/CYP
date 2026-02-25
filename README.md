@@ -16,7 +16,7 @@ This repository contains a Jupyter Notebook (`Crop_Yield_Prediction.ipynb`) demo
 6.  [**Interactive Predictive Interface**](#interactive-predictive-interface)
 7.  [**Dependencies**](#dependencies)
 8.  [**Usage**](#usage)
-9.  [**Next Steps**](#next-steps)
+9.  [**Scope of Future Work**](#scope-of-future-work)
 
 ## 🌟 Project Overview
 
@@ -96,7 +96,7 @@ The **Tuned CatBoost Regressor** emerged as the top-performing model, achieving 
 
 ## 🖥️ Interactive Predictive Interface
 
-An interactive interface, built using `ipywidgets` within the notebook, allows users to input various parameters and receive real-time crop yield predictions from the tuned CatBoost model. 
+An interactive interface, built using `ipywidgets` within the notebook, allows users to input various parameters and receive real-time crop yield predictions from the tuned CatBoost model. This interface is also integrated with a web-based UI (Streamlit). 
 
 **Inputs include:**
 *   Temperature (°C)
@@ -136,9 +136,8 @@ pip install pandas scikit-learn matplotlib seaborn xgboost catboost scipy ipywid
 3.  **Run the Notebook:** Open and run `Crop_Yield_Prediction.ipynb` in a Jupyter environment (e.g., Jupyter Lab, Google Colab).
 4.  **Explore:** Follow the cells to see the data processing, model training, and interactive prediction interface.
 
-## ⏭️ Next Steps
+## ⏭️ Scope of Future Work
 
 *   Deploy the tuned CatBoost model as a web service (e.g., using Flask or FastAPI).
-*   Develop a user-friendly mobile or web application (e.g., with Streamlit, React) for broader access.
 *   Integrate real-time data from satellite imagery and IoT sensors for dynamic predictions.
 *   Further validate the model with diverse, real-world agricultural datasets.
